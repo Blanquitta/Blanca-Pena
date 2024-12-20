@@ -9,12 +9,10 @@ section {
     margin: 20px;
     padding: 20px;
     border: 5px solid blue;
-
+    padding-bottom: 50px;
 }
 
-#experience {
-    text-align: center;
-}
+
 
 section h2 {
     font-size: large;
@@ -32,3 +30,36 @@ section h2 {
 #connect a {
    color:blueviolet;
 }
+
+
+
+#about, #experience, #skills, #projects, #connect {
+    scroll-margin-top: 3em;
+}
+
+.img-profilepicture {
+    width: 100px;
+    height: 100px;
+    background-image: url(img/profilepicture.jpg);
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid rgb(204, 0, 255);
+    padding-bottom: 10px;
+
+}
+
+.dare {
+    font-weight: bold;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly; 
+}
+  #about {
+    text-align: center;
+  }
+  #name {
+    text-align: center;
+  }
