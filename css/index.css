@@ -1,8 +1,15 @@
 body {
     background-color: aqua;
     color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+  }
+ 
+		
+		
+
+
 
 section {
     background-color: bisque;
@@ -28,14 +35,34 @@ section h2 {
 }
 
 #connect a {
-   color:blueviolet;
+    color:blueviolet;
 }
 
 
 
 #about, #experience, #skills, #projects, #connect {
     scroll-margin-top: 3em;
+
+  
+    
 }
+.container div {
+    max-width: 60px;
+    margin: 10px
+    
+}
+
+div {
+    display:grid
+}
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
 
 .img-profilepicture {
     width: 100px;
@@ -63,3 +90,61 @@ section h2 {
   #name {
     text-align: center;
   }
+  
+  .ex-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+  }
+  .ex.part {
+    display:flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 480px) {
+    body {
+    background-color: beige;
+
+    }
+
+    
+
+    
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        
+        
+    
+
+    
+
+
+.box {
+    
+    border: 8px solid saddlebrown;
+    margin: 0 auto;
+    padding:  30em;
+    font-size: 30em;
+    
+    width: 600px;
+  }
+  div { 
+    
+    padding: 30px;
+    font-size: 30em;
+    margin: 0 auto;
+    max-width: 500em;
+    height: 200em;
+  }
+  }
+  }
+  #skills-list {
+    display: flex;
+    justify-content:space-between;
+
+  }
+ 
+  
+  
