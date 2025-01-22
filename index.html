@@ -38,7 +38,7 @@
                 <div class="one experience">
                     <p class="exp-description">  I graduated in 1987 of Secretary from High School in Lyceum Technology in El Salvador. 
                       Besides, I graduted of an associate of  computer science in 2004 in Bronx Community college NY. 
-                        I am studing in Code the Dream because I want to be updated with technology nowdays.
+                        I am studying in Code the Dream because I want to be updated with technology nowdays.
                          I like to work in computers and I really enjoy doing it. My hobbies are swim, play baseball, go camping. 
                          My dream is to work in what I have studied. 
                         
@@ -48,7 +48,7 @@
     <section id="experience">
         <div class="container">
             <h2>experience</h2>
-        <div class="container"></div>
+        <!-- <div class="container"> -->
             
           <ul>
             <div class="exp-item"></div>
@@ -62,6 +62,7 @@
                     <div class="row"></div>
                    <div class="one experience"></div>
                     <div class="container"></div>
+                      
                     <h3 class="one-exp-heading">production manager</h3>
                     
                  <p class="exp-description">In charge of store inventory, running shift, make schedules, position crew to work.
@@ -78,16 +79,13 @@
         </ul>
     </section>
     <section id="connect">
-        <section id ="skills-section">
-            <h2 id="skills">Skills></h2>
-            <ul id="skills-list"></ul>
-        </section>
+     
         <h2>connect</h2>
         <a href="https://github.com/Blanquitta">Github</a>
         <a href="https://Instagram.com/lilianpena1">Instagram</a>
     
         <div class="Instagram"></div>
-        <img src="img/Instagram-logo-square-100x100.png" class="Instagram">
+        <img src="img/ig.png" class="Instagram">
         <a href="https://Facebook.com/LilianPena">Facebook</a>
     </section>
      
@@ -103,11 +101,14 @@
             <section id="skills">
             <li><a href="#skills"> Skills</a></li>
             <div class="exp-item">
-                <h3 class="date">2000-2007</h3>
+                <!-- <h3 class="date">2000-2007</h3> -->
                 <h3 class="one skill">
-                    <h3 class="one-exp-heading">compurer programming</h3>
-                    <p class="exp-description">database, access, excell, create and present powerpoint, VisualBasic, Cobol, C++. </p>
-
+                    <!-- <h3 class="one-exp-heading">compurer programming</h3> -->
+                    <!-- <p class="exp-description">database, access, excell, create and present powerpoint, VisualBasic, Cobol, C++. </p> -->
+                    <div  id ="skills-section">
+                        <h2 ></h2>
+                        <ol id="skills-list"></ol>
+                    </div>
             </div>
         </section>
         <section id="projects">
@@ -124,6 +125,44 @@
         
 
         
+<section> 
+    <h2>leave a message</h2>
+     <form id="messageform" name="leave_message" autocomplete="on"> 
+    <label for = "usersNameId">Users Name:</label>
+    <input 
+    type = "text" 
+    name = "usersName" 
+    id="userNameId"
+    required="true"
+    value = "hi"
+    /><br/>
+    <label for = "emailId">Email:</label>
+    <input
+     type="email" 
+     name="usersEmail" 
+     id="emailId" 
+     required="true"
+     value = "hi@hotmail.com"
+      autocomplete="on"/><br/>
+    <label for="usersMessageId">Users Message:</label>
+    <input 
+    value = "hi"
+    type="text" 
+    name="usersMessage" 
+     id ="usersMessageId" 
+     required="true"/><br/>
+    <button type="submit" class="button" name="submitButton">Submit
+     </button>
+</form> 
+</section> 
+
+<section id="message">
+    <h2>Messages</h2>
+    <div class="message-container">
+        <ul></ul>
+    </div>
+</section> 
+
 
     </nav>
     <script src = "js/index.js"> </script>
