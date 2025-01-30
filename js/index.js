@@ -123,13 +123,21 @@ fetch("https://api.github.com/users/Blanquitta/repos")
         for (let i = 0; i < repositories.length; i++) {
             // get specific data
             const project = repositories[i].name;
+            const link = repositories [i].html_url
             console.log(project)
+            console.log(link);
             // create DOM Elements
             const li = document.createElement("li");
-
+        const li2 = document.createElement("a");
+        li2.href = link 
             //Add DOM element to the page
             li.innerText = project;
+            li2.textContent = link
             projectList.appendChild(li);
+            projectList.appendChild(li2);
+            
+
+
         }
 
 
