@@ -151,7 +151,7 @@ div {
     background-color: var(azure);
     color: var(textdark);
     font-Family:"Backdrop";
-    font-size: 2vw;
+    font-size: 1vw;
     padding: 10%;
 
 
@@ -168,5 +168,33 @@ div {
   margin-bottom: 2em;
   padding: 1%;
  }
+
+ .logos {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+
+ .picture {  
+  width: 200px;
+  height: 200px;
+ }
+ #project ul {
+  background-color: #ffffff;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  max-width: 90vw;
+  justify-content: cente;
+ }
+#projects li {
+  background-color: beige;
+  padding: 1rem;
+  border:  1px solid;
+  border-radius: 1rem;
+}
   
   
