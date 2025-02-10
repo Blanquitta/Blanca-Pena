@@ -1,200 +1,156 @@
 body {
-    background-color: aqua;
-    color: brown;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
-
-  }
- 
-		
-		
-
-
-
-section {
-    background-color: bisque;
-    margin: 20px;
-    padding: 20px;
-    border: 5px solid blue;
-    padding-bottom: 50px;
+  background-color: aqua;
+  color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
+section {
+  background-color: bisque;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid blue;
+  padding-bottom: 50px;
+}
 
 section h2 {
-    font-size: large;
-    font-weight: bold;
-    color: black;
+  font-size: large;
+  font-weight: bold;
+  color: black;
 }
 
 #name {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 #experience ul li {
-  font-family:Verdana, Geneva, Tahoma, sans-serif   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #connect a {
-    color:blueviolet;
+  color: blueviolet;
 }
 
-
-
-#about, #experience, #skills, #projects, #connect {
-    scroll-margin-top: 3em;
-
-  
-    
+#about,
+#experience,
+#skills,
+#projects,
+#connect {
+  scroll-margin-top: 3em;
 }
 .container div {
-    max-width: 60px;
-    margin: 10px
-    
+  max-width: 3px;
+  margin: 1px;
 }
 
 div {
-    display:grid
+  display: grid;
 }
 .row {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
-
-
-
 .img-profilepicture {
-    width: 100px;
-    height: 100px;
-    background-image: url(img/profilepicture.jpg);
-    margin: 20px;
-    padding: 10px;
-    border: 5px solid rgb(204, 0, 255);
-    padding-bottom: 10px;
-
+  width: 100px;
+  height: 100px;
+  background-image: url(img/profilepicture.jpg);
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid rgba(167, 5, 5, 0.979);
+  padding-bottom: 10px;
 }
 
 .dare {
-    font-weight: bold;
-    
+  font-weight: bold;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-evenly; 
+  display: flex;
+  justify-content: space-evenly;
 }
-  #about {
-    text-align: center;
-  }
-  #name {
-    text-align: center;
-  }
-  
-  .ex-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-style: solid;
-  }
-  .ex.part {
-    display:flex;
-    flex-direction: column;
-  }
-  @media screen and (max-width: 480px) {
-    body {
-    background-color: beige;
+#about {
+  text-align: center;
+}
+#name {
+  text-align: center;
+}
 
-    }
-
-    
-
-    
-
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        
-        
-    
-
-    
-
-
-.box {
-    
-    border: 8px solid saddlebrown;
-    margin: 0 auto;
-    padding:  30em;
-    font-size: 30em;
-    
-    width: 600px;
-  }
-  div { 
-    
-    padding: 30px;
-    font-size: 30em;
-    margin: 0 auto;
-    max-width: 500em;
-    height: 200em;
-  }
-  }
-  }
-  #skills-list {
-    display: flex;
-    flex-direction:column ;
-    justify-content:space-between;
-
-  }
-
+.ex-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+}
+.ex.part {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 480px) {
   body {
-    background-color: var(azure);
-    color: var(textdark);
-    font-Family:"Backdrop";
-    font-size: 1vw;
-    padding: 10%;
-
-
-
+    background-color: beige;
   }
- h1,
- h2
- p,
- section,
- li,
- ul,
- div{
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+
+    .box {
+      border: 8px solid saddlebrown;
+      margin: 0 auto;
+      padding: 30em;
+      font-size: 30em;
+
+      width: 600px;
+    }
+    div {
+      padding: 30px;
+      font-size: 30em;
+      margin: 0 auto;
+      max-width: 500em;
+      height: 200em;
+    }
+  }
+}
+#skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  background-color: var(azure);
+  color: var(textdark);
+  font-family: "Backdrop";
+  font-size: 1vw;
+  padding: 10%;
+}
+h1,
+h2 p,
+section,
+li,
+ul,
+div {
   margin-top: 0;
   margin-bottom: 2em;
   padding: 1%;
- }
+}
 
- .logos {
-  display:flex;
+.logos {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
- }
+}
 
-
- .picture {  
+.picture {
   width: 200px;
   height: 200px;
- }
- #project ul {
+}
+#project ul {
   background-color: #ffffff;
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
   max-width: 90vw;
-  justify-content: cente;
- }
-#projects li {
-  background-color: beige;
-  padding: 1rem;
-  border:  1px solid;
-  border-radius: 1rem;
+  justify-content: center;
 }
-  
-  
